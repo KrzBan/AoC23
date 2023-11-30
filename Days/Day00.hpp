@@ -2,7 +2,7 @@
 
 #include <spdlog/spdlog.h>
 
-namespace Day0 {
+namespace Day00 {
 
 	inline void Part1() {
 		spdlog::info("Day0: Part1!");
