@@ -1,7 +1,9 @@
 #pragma once
 
+#include <algorithm>
 #include <array>
 #include <fstream>
+#include <numeric>
 #include <ranges>
 #include <regex>
 #include <sstream>
