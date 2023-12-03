@@ -1,23 +1,10 @@
 ﻿#include "AoC23.hpp"
 
+#define RUN_DAY(x) \
+Day##x::Part1(); \
+Day##x::Part2(); \
+
 int main()
 {
-	constexpr uint32_t day = 2;
-	switch (day) {
-	case 0: {
-		Day00::Part1();
-		Day00::Part2();
-		break;
-	}
-	case 1: {
-		Day01::Part1();
-		Day01::Part2();
-		break;
-	}
-	case 2: {
-		Day02::Part1();
-		Day02::Part2();
-		break;
-	}
-	}
+	RUN_DAY(03);
 }
