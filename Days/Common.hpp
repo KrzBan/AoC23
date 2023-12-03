@@ -2,8 +2,11 @@
 
 #include <algorithm>
 #include <array>
+#include <charconv>
 #include <fstream>
+#include <map>
 #include <numeric>
+#include <optional>
 #include <ranges>
 #include <regex>
 #include <sstream>
