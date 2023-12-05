@@ -162,7 +162,7 @@ namespace Day05 {
 
 		uint64_t minLocation = std::numeric_limits<uint64_t>::max();
 		std::mutex minMutex;
-		std::for_each(std::execution::par_unseq,seeds.begin(), seeds.end(), [&](const auto& range) {
+		std::for_each(std::execution::par,seeds.begin(), seeds.end(), [&](const auto& range) {
 			for (auto i = 0; i < range.length; ++i) {
 				const auto seed = range.start + i;
 				const auto soil = mapLookup(seed, seedToSoilMap);
