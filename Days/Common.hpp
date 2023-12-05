@@ -3,8 +3,10 @@
 #include <algorithm>
 #include <array>
 #include <charconv>
+#include <execution>
 #include <fstream>
 #include <map>
+#include <mutex>
 #include <numeric>
 #include <optional>
 #include <ranges>
