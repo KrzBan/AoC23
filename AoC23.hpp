@@ -8,3 +8,4 @@
 #include "Days/Day03.hpp"
 #include "Days/Day04.hpp"
 #include "Days/Day05.hpp"
+#include "Days/Day06.hpp"
