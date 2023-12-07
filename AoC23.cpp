@@ -6,5 +6,5 @@ Day##x::Part2(); \
 
 int main()
 {
-	RUN_DAY(06);
+	RUN_DAY(07);
 }
