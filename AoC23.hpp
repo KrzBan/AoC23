@@ -13,3 +13,4 @@
 #include "Days/Day08.hpp"
 #include "Days/Day09.hpp"
 #include "Days/Day10.hpp"
+#include "Days/Day11.hpp"

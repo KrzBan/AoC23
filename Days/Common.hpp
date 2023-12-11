@@ -7,11 +7,13 @@
 #include <fstream>
 #include <limits>
 #include <map>
+#include <mdspan>
 #include <mutex>
 #include <numeric>
 #include <optional>
 #include <ranges>
 #include <regex>
+#include <set>
 #include <sstream>
 #include <string>
 #include <string_view>
